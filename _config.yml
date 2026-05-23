@@ -1,0 +1,29 @@
+title: Chang Li
+email: changli0914@gmail.com
+description: >-
+  A personal tech blog — notes on LLMs, machine learning, agents, and
+  whatever else I'm building or breaking.
+baseurl: ""
+url: "https://lichkkkk.github.io"
+github_username: lichkkkk
+
+theme: minima
+minima:
+  skin: auto
+  date_format: "%b %-d, %Y"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+
+header_pages:
+  - about.md
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
